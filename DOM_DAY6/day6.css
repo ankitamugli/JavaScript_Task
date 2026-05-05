@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 500vh;
+    background: #FFFFFF;
+}
+
+.container {
+  .inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 10px;
+
+    #inp {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      text-transform: capitalize;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    input:focus{
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+    #submit {
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      border-radius: 10px;
+      padding: 10px;
+      text-transform: capitalize;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: #0f34da;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #5a67d8;
+    }
+  }
+
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    .card1{
+      border-radius: 15px;
+      /* border: 2px solid black; */
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       padding: 20px;
+       width: 400px;
+       height: 250px;
+      
+        background: linear-gradient(100deg, rgb(185, 134, 233), rgb(185, 134, 233));
+
+       /* align-items: center; */
+       justify-content: center;
+
+       h1{
+         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+         text-transform: capitalize;
+         font-size: 20px;
+       }
+       p{
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+         text-transform: capitalize;
+         font-size: 20px;
+       }
+       h3{
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+         text-transform: capitalize;
+         font-size: 15px;
+       }
+    }
+  }
+}
